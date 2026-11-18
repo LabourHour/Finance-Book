@@ -6,7 +6,7 @@
 
 | 账单 | 统计 | 资产 |
 |:---:|:---:|:---:|
-| <img src="mockups/screenshot-bill.png" width="260" /> | <img src="mockups/screenshot-stats.png" width="260" /> | <img src="mockups/screenshot-assets.png" width="260" /> |
+| <img src="mockups/screenshot-bill-v2.png" width="260" /> | <img src="mockups/screenshot-stats.png" width="260" /> | <img src="mockups/screenshot-assets.png" width="260" /> |
 
 ## 功能
 
