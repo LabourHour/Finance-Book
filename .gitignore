@@ -1,0 +1,22 @@
+# Gradle / Android build output
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+captures/
+.cxx/
+*.hprof
+*.iml
+.idea/
+
+# Local tooling
+.codeartsdoer/
+
+# UI automation debug dumps
+mockups/ui.xml
+mockups/ui2.xml
+
+# OS noise
+.DS_Store
+Thumbs.db
