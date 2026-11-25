@@ -112,7 +112,7 @@ mockups/                            # A / B / C 三套对比设计稿与实机�
 
 ### 直接安装预编译 APK
 
-仓库 [`dist/Stream-1.0.0-flutter.apk`](dist/Stream-1.0.0-flutter.apk) 附带已签名的 release 安装包（`applicationId: com.stream.ledger`）：
+可从本仓库的 [GitHub Releases](https://github.com/LabourHour/Finance-Book/releases) 下载对应版本的 `Stream-*-flutter.apk`，或使用仓库内附带的签名安装包 [`dist/Stream-1.0.0-flutter.apk`](dist/Stream-1.0.0-flutter.apk)（`applicationId: com.stream.ledger`）：
 
 ```bash
 adb install -r dist/Stream-1.0.0-flutter.apk
