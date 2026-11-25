@@ -1,22 +1,57 @@
-# Gradle / Android build output
-.gradle/
-.kotlin/
-build/
-app/build/
-local.properties
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ / Android Studio related
+*.iml
+.idea/
 captures/
 .cxx/
 *.hprof
-*.iml
-.idea/
+
+# Flutter / Dart / Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Android build configuration & outputs
+/android/local.properties
+/android/.gradle/
+/android/build/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# Release signing material — 切勿提交
+/android/key.properties
+/android/app/*.jks
+/android/app/*.keystore
+
+# Symbolication / obfuscation outputs
+app.*.symbols
+app.*.map.json
+
+# 仓库内附带的可安装包（dist/ 例外保留）
+!/dist/
+!/dist/*.apk
 
 # Local tooling
 .codeartsdoer/
+.resultverify/
+.security/
 
 # UI automation debug dumps
 mockups/ui.xml
 mockups/ui2.xml
-
-# OS noise
-.DS_Store
-Thumbs.db

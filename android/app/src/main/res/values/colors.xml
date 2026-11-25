@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 品牌暖黄，同时用于应用图标与启动背景 -->
+    <color name="launcher_background">#E8B44A</color>
+</resources>
